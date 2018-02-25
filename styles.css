@@ -29,7 +29,7 @@
 }
 
 .Lucky{
-  right: 640px;
+  right: 630px;
   width: 130px;
 }
 
@@ -81,7 +81,7 @@
   position: absolute;
   top: 18px;
   display: inline-block;
-  width: 30px; height: 15px;
+  width: 30px; height: 17px;
   right: 100px;
 }
 
@@ -97,4 +97,87 @@
 
 .gmail:hover,.images:hover{
   text-decoration: underline;
+}
+
+.languages{
+  position:absolute;
+  width: 90%;
+  top: 460px;
+}
+
+.offerings,.german{
+  display: inline-block;
+  position: relative;
+  font-family: Arial;
+  font-size: 13px;
+  left:680px;
+
+}
+
+.german{
+  color: #1a0dab;
+}
+
+.german:hover{
+  text-decoration: underline;
+}
+
+.lower_bottom_bar{
+  position: absolute;
+  top: 720px;
+  border-top: 1px #d9d9d9 solid;
+  width: 99%;
+}
+
+.advertising,.businnes,.about,.privacy,.terms,.settings{
+  display: inline-block;
+  font-weight: normal; font-family: Arial;
+  font-size: 13px;
+  position: relative;
+  padding: 10px 0;
+  color: rgba(0,0,0,.54);
+}
+
+.advertising:hover,.businnes:hover,.about:hover,.privacy:hover,.terms:hover,.settings:hover{
+  text-decoration: underline;
+}
+
+.advertising{
+  left:10px;
+}
+
+.businnes{
+  left:20px;
+}
+
+.about{
+  left:40px;
+}
+
+.privacy{
+  left: 1140px ;
+}
+
+.terms{
+  left: 1175px ;
+}
+
+.settings{
+  left: 1195px ;
+}
+
+.upper_bottom_bar{
+  position: absolute;
+  top: 670px; width: 98%;
+  border-top: 1px #d9d9d9 solid;
+}
+
+.country{
+  padding-top: 10px;
+  font-family: Arial;
+  font-weight: strong;
+  color: rgba(0,0,0,.54);
+  position: relative;
+  top: 5px;
+  left:10px;
 }
