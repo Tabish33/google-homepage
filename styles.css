@@ -13,7 +13,7 @@
   justify-content: center;
   border: 0 ;
   background: #f2f2f2;
-  font-weight: bold;
+  font-weight: bold; font-family: Arial;
   color: #808080;
 }
 
@@ -53,4 +53,48 @@
   top: 335px;
   right:  500px;
   z-index: 5;
+}
+
+.navbar{
+  height: 40px; width: 100%;
+  position: relative;
+}
+
+.gmail,.images,.sign_in{
+  display: inline-block;
+  align-content: center;
+  position: absolute;
+  top: 10px;
+  font-family: Arial; font-size: 13px;
+  padding: 8px 13px;
+}
+
+.gmail{
+  right: 185px;
+}
+
+.images{
+  right: 130px;
+}
+
+.squares{
+  position: absolute;
+  top: 18px;
+  display: inline-block;
+  width: 30px; height: 15px;
+  right: 100px;
+}
+
+.sign_in{
+  right: 20px;
+  background: #4285f4;
+  font-weight: bold;
+  color: white;
+  padding: 8px 13px;
+  border-radius: 2px;
+
+}
+
+.gmail:hover,.images:hover{
+  text-decoration: underline;
 }
