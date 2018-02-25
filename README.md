@@ -1,4 +1,6 @@
-Project : Google homepage clone.
+Project : Google homepage clone. 
+(Live version: https://tabish33.github.io/google-homepage/)
+ 
 
 Skills used:
 
