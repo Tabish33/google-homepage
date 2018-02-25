@@ -1,9 +1,9 @@
 .glogo{
-  width:272px; ; height:92px ;
-  background-image: url("https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+  width:600px; ; height:237px;
+  background-image: url("https://media.giphy.com/media/uTCYPjwqleYF2/giphy.gif");
   position: absolute;
-  top: 205px;
-  left: 635px;
+  top: 80px;
+  left: 455px;
 }
 
 .button{
@@ -58,6 +58,8 @@
 .navbar{
   height: 40px; width: 100%;
   position: relative;
+  border-bottom:1px #f2f2f2 solid;
+  padding-bottom: 5px;
 }
 
 .gmail,.images,.sign_in{
@@ -125,7 +127,7 @@
 .lower_bottom_bar{
   position: absolute;
   top: 720px;
-  border-top: 1px #d9d9d9 solid;
+  border-top: 1px #e6e6e6 solid;
   width: 99%;
 }
 
@@ -169,7 +171,7 @@
 .upper_bottom_bar{
   position: absolute;
   top: 670px; width: 98%;
-  border-top: 1px #d9d9d9 solid;
+  border-top: 1px #e6e6e6 solid;
 }
 
 .country{
