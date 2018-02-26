@@ -1,3 +1,11 @@
+body{
+  width: 1520px;
+}
+
+form{
+  position: relative;
+}
+
 .glogo{
   width:600px; ; height:237px;
   background-image: url("https://media.giphy.com/media/uTCYPjwqleYF2/giphy.gif");
@@ -69,22 +77,28 @@
   top: 10px;
   font-family: Arial; font-size: 13px;
   padding: 8px 13px;
+  text-decoration: none;
 }
 
 .gmail{
-  right: 185px;
+  right: 189px;
+  color: rgba(0,0,0,0.87);
 }
 
 .images{
   right: 130px;
+  color: rgba(0,0,0,0.87);
 }
 
 .squares{
   position: absolute;
-  top: 18px;
-  display: inline-block;
-  width: 30px; height: 17px;
+  top: 11px;
   right: 100px;
+  background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  width: 30px; height: 30px;
+  background-position: -132px -38px;
+  opacity: 0.5;
+  display: inline-block;
 }
 
 .sign_in{
@@ -92,9 +106,12 @@
   background: #4285f4;
   font-weight: bold;
   color: white;
-  padding: 8px 13px;
-  border-radius: 2px;
+  border: 0; border-radius: 2px;
 
+}
+
+.squares:hover{
+  opacity: 1;
 }
 
 .gmail:hover,.images:hover{
@@ -139,6 +156,8 @@
   position: relative;
   padding: 10px 0;
   color: rgba(0,0,0,.54);
+  text-decoration: none;
+
 }
 
 .advertising:hover,.businnes:hover,.about:hover,.privacy:hover,.terms:hover,.settings:hover{
